@@ -10,7 +10,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Resume - Start Bootstrap Theme
+        title Resume - Danila Barton-Szabo
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -46,8 +46,8 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    //- li.nav-item
+                    //-     a.nav-link.js-scroll-trigger(href='#projects') Projects
 
         // Page Content
         .container-fluid.p-0
@@ -236,38 +236,38 @@ html(lang='en')
             hr.m-0
 
             // Projects
-            section#projects.resume-section
-                .resume-section-content
-                    h2.mb-5 Projects
-                    .container
-                    .page-header
-                    #carousel-craft.carousel.slide(data-ride="carousel")
-                        <!-- Indicators -->
-                        ol.carousel-indicators
-                        - var i = 0
-                            while (i++<5)
-                            if i == 1
-                                li(data-target="#"+id data-slide-to=""+i class="active")
-                            else
-                                li(data-targe="#"+id data-slide-to=""+i)
+            //- section#projects.resume-section
+            //-     .resume-section-content
+            //-         h2.mb-5 Projects
+            //-         .container
+            //-         .page-header
+            //-         #carousel-craft.carousel.slide(data-ride="carousel")
+            //-             <!-- Indicators -->
+            //-             ol.carousel-indicators
+            //-             - var i = 0
+            //-                 while (i++<5)
+            //-                 if i == 1
+            //-                     li(data-target="#"+id data-slide-to=""+i class="active")
+            //-                 else
+            //-                     li(data-targe="#"+id data-slide-to=""+i)
 
-                        <!-- Wrapper for slides -->
-                        .carousel-inner(role="listbox")
-                            each val in urlname
-                            if val.n == 114
-                                .item(class="active")
-                                img(src="https://unsplash.it/1400/600?image="+val.n)
-                            else
-                                .item
-                                img(src='https://unsplash.it/1400/600?image='+val.n)
-                        <!-- Controls -->
-                        a.left.carousel-control(href="#"+id role="button" data-slide="prev")
-                        span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
-                        span.sr-only Previous
+            //-             <!-- Wrapper for slides -->
+            //-             .carousel-inner(role="listbox")
+            //-                 each val in urlname
+            //-                 if val.n == 114
+            //-                     .item(class="active")
+            //-                     img(src="https://unsplash.it/1400/600?image="+val.n)
+            //-                 else
+            //-                     .item
+            //-                     img(src='https://unsplash.it/1400/600?image='+val.n)
+            //-             <!-- Controls -->
+            //-             a.left.carousel-control(href="#"+id role="button" data-slide="prev")
+            //-             span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+            //-             span.sr-only Previous
 
-                        a.right.carousel-control(href="#"+id role="button" data-slide="next")
-                        span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
-                        span.sr-only Next
+            //-             a.right.carousel-control(href="#"+id role="button" data-slide="next")
+            //-             span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+            //-             span.sr-only Next
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js')

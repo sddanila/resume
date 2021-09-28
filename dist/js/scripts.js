@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', event => {
     const duolingoCounter = document.body.querySelector("#duolingo-counter")
     duolingoCounter.innerHTML = numOfDays
 
-    document.body.querySelector(".carousel").swipe({
+    document.body.querySelector("#carousel-craft").swipe({
 
         swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
 
