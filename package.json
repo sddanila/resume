@@ -39,7 +39,8 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-resume.git"
     },
     "dependencies": {
-        "bootstrap": "5.1.0"
+        "bootstrap": "5.1.0",
+        "shelljs": "^0.8.4"
     },
     "devDependencies": {
         "autoprefixer": "10.3.1",
@@ -50,7 +51,6 @@
         "prettier": "2.3.2",
         "pug": "3.0.2",
         "sass": "1.37.5",
-        "shelljs": "^0.8.4",
         "upath": "2.0.1"
     }
 }
