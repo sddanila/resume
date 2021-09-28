@@ -1,0 +1,276 @@
+doctype html
+html(lang='en')
+- var id = ['carousel-craft']
+- var urlname = [{n:114},{n:745},{n:315},{n:622},{n:401}]
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Danila Barton-Szabo
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.png', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Danila
+                        span.text-primary Barton-Szabo
+                    .subheading.mb-5
+                        | Calgary, AB · (587) 777-8395 ·
+                        a(href='mailto:sddanila@gmail.com') sddanila@gmail.com
+                    p.lead.mb-5
+                        | I am a full stack developer and scrum lead with strong communication and organization skills. Being a former NCAA soccer player and having substantial work experience (teaching and business management) spanning across three continents, I am finally following my passion as a developer. I do enjoy full-stack programming and am fascinated with iOS projects.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/danila-barton-szabo-79624165/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/sddanila')
+                            i.fab.fa-github
+                        a.social-icon(href='https://console.aws.amazon.com/cloud9/ide/094edd6ec5d847a1828090f760e3d77f')
+                            i.fab.fa-aws
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Web Developer
+                            .subheading.mb-3 Payload Technologies, Inc.
+                            p
+                                | Calgary, AB, Canada
+                            p
+                                | Learning and growing in a Ruby on Rails, React, Node.js environment, while facilitating the scrum process and also working with iOS and Android applications.
+                        .flex-shrink-0
+                            span.text-primary April, 2019 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Sales Lead & Keyholder
+                            .subheading.mb-3 Bath & Body Works
+                            p
+                                | Calgary, AB, Canada
+                            p
+                                | Store operations management and visual presentation.
+                        .flex-shrink-0
+                            span.text-primary October, 2015 - June, 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Travel Specialist
+                            .subheading.mb-3 Rayo Active Travel, Inc.
+                            p
+                                | Calgary, AB, Canada
+                            p
+                                | Web content management, WP website updates, communicating with clients and contractors in English, Spanish, and French.
+                        .flex-shrink-0
+                            span.text-primary December, 2015 - November, 2018
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Project Coordinator and Instructor
+                            .subheading.mb-3 Ministry of Education
+                            p
+                                | Sur, Oman
+                            p
+                                | ESL teacher and e-learning instructor.
+                        .flex-shrink-0
+                            span.text-primary August, 2013 - August, 2015
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Lighthouse Labs
+                            .subheading.mb-3 Calgary, AB, Canada
+                            div Web Development Bootcamp
+                        .flex-shrink-0
+                            span.text-primary January, 2019 - April, 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Udemy
+                            .subheading.mb-3 online
+                            div The Beginner & The Advanced Web Development Bootcamp
+                        .flex-shrink-0
+                            span.text-primary October, 2018 - April, 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Shorter University
+                            .subheading.mb-3 Rome, GA, USA
+                            div BBA & Master of Business Administration - Dean's List
+                        .flex-shrink-0
+                            span.text-primary August, 2005 - May, 2010
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Corvinus University of Budapest
+                            .subheading.mb-3 Budapest, Hungary
+                            div Masters of International Relations and Economics
+                        .flex-shrink-0
+                            span.text-primary September, 2003 - December, 2010
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fas.fa-database
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-npm
+                        li.list-inline-item
+                            i.fab.fa-sass
+                        li.list-inline-item
+                            i.fab.fa-less
+                        li.list-inline-item
+                            i.far.fa-gem
+                        li.list-inline-item
+                            i.fab.fa-git
+                        li.list-inline-item
+                            i.fab.fa-github
+                        li.list-inline-item
+                            i.fas.fa-cloud-upload-alt
+                        li.list-inline-item
+                            i.fas.fa-volume-up
+                        li.list-inline-item
+                            i.fab.fa-wordpress
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | RESTful APIs & API Documentation (Swagger)
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Unit Testing
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Functional Teams with Context Switching
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p.mb-4
+                        | Apart from training to become a web developer, I enjoy spending most of my time with my family and our dog. We like spending time outside - hiking, walking at Nose Hill Park. I like playing soccer both indoors and out. Recently, I have taken up gardening and find great pleasure in growing strawberries and tomatoes.
+                    p.mb-4
+                        | When forced indoors, I take time to read books (Harry Potter, Lord of the Rings, etc.), as well as cook, and catch up on world events and history. Every now and then, I have time to do some painting as well or work on a creative (and useful) project.
+                    p.mb-4
+                        | Learning languages is a passion of mine. I speak English and Hungarian fluently, German, Spanish, and French on a conversational level. I was even able to pick up minimal Vietnamese and Arabic while living in Vietnam and Oman. I daringly even tried to take some Klingon and High Valerian lessons on Duolingo, where my current streak is at <span id="duolingo-counter">373</span> days and counting.
+                    p.mb-4
+                        | I have called 6 different countries home over the years and was fortunate enough to visit almost 50 countries around the world. Among my favourites countries are Cambodia, Sri Lanka, Oman, Canada and of course, my home, Hungary.
+
+            hr.m-0
+
+            // Projects
+            section#projects.resume-section
+                .resume-section-content
+                    h2.mb-5 Projects
+                    .container
+                    .page-header
+                    #carousel-craft.carousel.slide(data-ride="carousel")
+                        <!-- Indicators -->
+                        ol.carousel-indicators
+                        - var i = 0
+                            while (i++<5)
+                            if i == 1
+                                li(data-target="#"+id data-slide-to=""+i class="active")
+                            else
+                                li(data-targe="#"+id data-slide-to=""+i)
+
+                        <!-- Wrapper for slides -->
+                        .carousel-inner(role="listbox")
+                            each val in urlname
+                            if val.n == 114
+                                .item(class="active")
+                                img(src="https://unsplash.it/1400/600?image="+val.n)
+                            else
+                                .item
+                                img(src='https://unsplash.it/1400/600?image='+val.n)
+                        <!-- Controls -->
+                        a.left.carousel-control(href="#"+id role="button" data-slide="prev")
+                        span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+                        span.sr-only Previous
+
+                        a.right.carousel-control(href="#"+id role="button" data-slide="next")
+                        span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+                        span.sr-only Next
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
